@@ -40,7 +40,7 @@ const Stories = () => {
             </div>
             <img
               className="h-full w-full absolute rounded-full object-top object-cover"
-              src="src/assets/images/prince.jpg"
+              src="/images/prince.jpg"
               alt=""
             />
           </div>
