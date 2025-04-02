@@ -5,7 +5,7 @@ export const users = [
       bio: "💗ॐ नमः शिवाय",
       followers: 8759,
       following: 571,
-      profilePicture: "src/assets/images/utkarsh.jpg", // Profile Image URL
+      profilePicture: "/images/utkarsh.jpg", // Profile Image URL
       reels: [
         {
           reelId: "r1",
@@ -64,7 +64,7 @@ export const users = [
       bio: "",
       followers: 192 ,
       following: 48,
-      profilePicture: "src/assets/images/lucky.jpg",
+      profilePicture: "/images/lucky.jpg",
       reels: [
         {
           reelId: "r2",
