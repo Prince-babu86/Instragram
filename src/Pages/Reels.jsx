@@ -51,7 +51,7 @@ const Reels = () => {
       pagination={{ clickable: true }}
       onSlideChange={handleSlideChange}
       // modules={[Mousewheel, Pagination]} 
-      className="Reels h-[95.3vh] w-full bg-amber-0 relative">
+      className="Reels h-[94.3vh] w-full bg-amber-0 relative">
        {reels.map((elem , index)=>{
         return  <SwiperSlide  className="Reel relative h-full w-full ">
         <div className="icons right-2 top-[58%] absolute  b z-[100] flex items-center justify-between gap-3 flex-col ">
