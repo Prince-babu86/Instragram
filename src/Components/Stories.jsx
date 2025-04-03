@@ -6,27 +6,26 @@ import { useNavigate } from "react-router-dom";
 const Stories = () => {
   const [isloader, setisloader] = useState(true);
   const stref = useRef();
-  const navigate = useNavigate()
-
-
+  const navigate = useNavigate();
 
   useEffect(() => {
     stref.current.style.display = "none";
     setTimeout(() => {
       stref.current.style.display = "flex";
       setisloader(false);
-    }, 3000);
-  }, [isloader]);
+    }, 1000);
+  }, []); // ✅ Runs only once when the component mounts
+  
 
-
-  const OnStory = (e) =>{
+  const OnStory = (e) => {
     // (e.target.classList.add("animate-spin"))
     setTimeout(() => {
-        navigate(`/story/${e}`)
-    }, 500);
-  }
+      navigate(`/story/${e}`);
+    }, 1000);
+  };
 
-
+  console.log(isloader)
+  
   return (
     <div>
       <div className="stories px-2 flex gap-0 overflow-x-auto">
@@ -57,7 +56,15 @@ const Stories = () => {
             })
           : users.map((elem, id) => {
               return (
-                <div onClick={(()=>{OnStory(elem.username)})} className="story h-[120px] w-[100px] flex items-center justify-center flex-col gap-1.5">
+                <div
+                  onClick={(e) => {
+                    OnStory(elem.username);
+                    console.log(e.target)
+                    e.target.classList.add("animate-spin")
+
+                  }}
+                  className="story h-[120px] w-[100px] flex items-center justify-center flex-col gap-1.5"
+                >
                   <div className="story-image relative h-[90px] w-[90px] border-[2.5px] border-transparent bg-gradient-to-r  from-orange-600 via-pink-500 to-orange-600 bg-clip-border rounded-full ">
                     <img
                       className="h-full w-full absolute rounded-full object-center object-cover"
@@ -70,7 +77,6 @@ const Stories = () => {
               );
             })}
       </div>
-     
     </div>
   );
 };

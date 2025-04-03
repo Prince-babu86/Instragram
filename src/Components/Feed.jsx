@@ -9,7 +9,7 @@ const Feed = () => {
     useEffect(()=>{
         setTimeout(() => {
             setisLoader(false)
-        }, 3000);
+        }, 2000);
     })
 
 

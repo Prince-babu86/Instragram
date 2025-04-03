@@ -3,6 +3,8 @@ import { Route, Routes, useLocation } from 'react-router-dom'
 import Home from './Pages/Home'
 import ViewStory from './Pages/ViewStory'
 import Menubar from './Components/Menubar'
+import Search from './Pages/Search'
+
 import { users } from './Data/User'
 
 
@@ -15,6 +17,7 @@ const App = () => {
       
       <Routes>
         <Route path='/' element={<Home/>}/>
+        <Route path='/search' element={<Search/>}/>
         <Route path='/story/:username' element={<ViewStory/>}/>
       </Routes>
      {!hidemenu &&  <Menubar/>}
