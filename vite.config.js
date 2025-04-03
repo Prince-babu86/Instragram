@@ -17,12 +17,12 @@ export default defineConfig({
         theme_color: '#000000',
         icons: [
           {
-            src: 'https://i.pinimg.com/736x/0b/da/8d/0bda8d7b305ace345b9dbfcfeff77b41.jpg',
+            src: 'https://static.cdninstagram.com/rsrc.php/v4/yx/r/H1l_HHqi4p6.png',
             sizes: '192x192',
             type: 'image/png'
           },
           {
-            src: 'https://i.pinimg.com/736x/0b/da/8d/0bda8d7b305ace345b9dbfcfeff77b41.jpg',
+            src: 'https://static.cdninstagram.com/rsrc.php/v4/yx/r/H1l_HHqi4p6.png',
             sizes: '512x512',
             type: 'image/png'
           }
