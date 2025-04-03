@@ -8,7 +8,7 @@ export const reels = [
       userId: 1,
       username: "aarav_sharma",
       fullName: "Aarav Sharma",
-      profilePicture: "https://randomuser.me/api/portraits/men/1.jpg",
+      profilePicture: "/images/lucky.jpg",
     },
     stats: {
       likes: 254,
@@ -26,7 +26,7 @@ export const reels = [
       userId: 1,
       username: "aarav_sharma",
       fullName: "Aarav Sharma",
-      profilePicture: "https://randomuser.me/api/portraits/men/1.jpg",
+      profilePicture: "/images/lucky.jpg",
     },
     stats: {
       likes: 312,
@@ -44,7 +44,7 @@ export const reels = [
       userId: 2,
       username: "ishaan_verma",
       fullName: "Ishaan Verma",
-      profilePicture: "https://randomuser.me/api/portraits/men/2.jpg",
+      profilePicture: "/images/utkarsh.jpg",
     },
     stats: {
       likes: 450,
@@ -62,7 +62,7 @@ export const reels = [
       userId: 2,
       username: "ishaan_verma",
       fullName: "Ishaan Verma",
-      profilePicture: "https://randomuser.me/api/portraits/men/2.jpg",
+      profilePicture: "/images/utkarsh.jpg",
     },
     stats: {
       likes: 378,
@@ -80,7 +80,7 @@ export const reels = [
       userId: 1,
       username: "aarav_sharma",
       fullName: "Aarav Sharma",
-      profilePicture: "https://randomuser.me/api/portraits/men/1.jpg",
+      profilePicture: "/images/lucky.jpg",
     },
     stats: {
       likes: 500,
@@ -98,7 +98,7 @@ export const reels = [
       userId: 2,
       username: "ishaan_verma",
       fullName: "Ishaan Verma",
-      profilePicture: "https://randomuser.me/api/portraits/men/2.jpg",
+      profilePicture: "/images/utkarsh.jpg",
     },
     stats: {
       likes: 215,
@@ -116,7 +116,7 @@ export const reels = [
       userId: 1,
       username: "aarav_sharma",
       fullName: "Aarav Sharma",
-      profilePicture: "https://randomuser.me/api/portraits/men/1.jpg",
+      profilePicture: "/images/lucky.jpg",
     },
     stats: {
       likes: 345,
@@ -134,7 +134,7 @@ export const reels = [
       userId: 2,
       username: "ishaan_verma",
       fullName: "Ishaan Verma",
-      profilePicture: "https://randomuser.me/api/portraits/men/2.jpg",
+      profilePicture: "/images/utkarsh.jpg",
     },
     stats: {
       likes: 428,
@@ -152,7 +152,7 @@ export const reels = [
       userId: 1,
       username: "aarav_sharma",
       fullName: "Aarav Sharma",
-      profilePicture: "https://randomuser.me/api/portraits/men/1.jpg",
+      profilePicture: "/images/lucky.jpg",
     },
     stats: {
       likes: 298,
@@ -170,7 +170,7 @@ export const reels = [
       userId: 2,
       username: "ishaan_verma",
       fullName: "Ishaan Verma",
-      profilePicture: "https://randomuser.me/api/portraits/men/2.jpg",
+      profilePicture: "/images/utkarsh.jpg",
     },
     stats: {
       likes: 382,
@@ -188,7 +188,7 @@ export const reels = [
       userId: 1,
       username: "aarav_sharma",
       fullName: "Aarav Sharma",
-      profilePicture: "https://randomuser.me/api/portraits/men/1.jpg",
+      profilePicture: "/images/lucky.jpg",
     },
     stats: {
       likes: 510,
@@ -206,7 +206,7 @@ export const reels = [
       userId: 2,
       username: "ishaan_verma",
       fullName: "Ishaan Verma",
-      profilePicture: "https://randomuser.me/api/portraits/men/2.jpg",
+      profilePicture: "/images/utkarsh.jpg",
     },
     stats: {
       likes: 625,
@@ -224,7 +224,7 @@ export const reels = [
       userId: 1,
       username: "aarav_sharma",
       fullName: "Aarav Sharma",
-      profilePicture: "https://randomuser.me/api/portraits/men/1.jpg",
+      profilePicture: "/images/lucky.jpg",
     },
     stats: {
       likes: 210,
@@ -242,7 +242,7 @@ export const reels = [
       userId: 2,
       username: "ishaan_verma",
       fullName: "Ishaan Verma",
-      profilePicture: "https://randomuser.me/api/portraits/men/2.jpg",
+      profilePicture: "/images/utkarsh.jpg",
     },
     stats: {
       likes: 492,
@@ -260,7 +260,7 @@ export const reels = [
       userId: 1,
       username: "aarav_sharma",
       fullName: "Aarav Sharma",
-      profilePicture: "https://randomuser.me/api/portraits/men/1.jpg",
+      profilePicture: "/images/lucky.jpg",
     },
     stats: {
       likes: 305,
@@ -278,7 +278,7 @@ export const reels = [
       userId: 2,
       username: "ishaan_verma",
       fullName: "Ishaan Verma",
-      profilePicture: "https://randomuser.me/api/portraits/men/2.jpg",
+      profilePicture: "/images/utkarsh.jpg",
     },
     stats: {
       likes: 432,

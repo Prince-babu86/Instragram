@@ -85,7 +85,7 @@ const Reels = () => {
         <div className="bottom-bar z-[100] absolute bottom-0 flex flex-col items-start  w-full  ">
         <div className="flex items-center gap-2 px-3">
         <div className="prf h-10 w-10 relative">
-            <img className='h-full w-full rounded-full' src="https://i.pinimg.com/736x/49/eb/d1/49ebd1e6b1739fd8f3e2db664daaac1c.jpg" alt="" />
+            <img className='h-full w-full rounded-full' src={elem.user.profilePicture} alt="" />
           </div>
           <div className="flex flex-col items-start">
             <h4 className='text-[13px]'>{elem.user.username}</h4>
