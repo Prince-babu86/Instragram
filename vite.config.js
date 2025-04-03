@@ -17,12 +17,12 @@ export default defineConfig({
         theme_color: '#000000',
         icons: [
           {
-            src: 'https://i.pinimg.com/736x/d6/be/cc/d6beccbf190a3eac0f35474e06afdcbf.jpg',
+            src: 'https://i.pinimg.com/736x/0b/da/8d/0bda8d7b305ace345b9dbfcfeff77b41.jpg',
             sizes: '192x192',
             type: 'image/png'
           },
           {
-            src: 'https://i.pinimg.com/736x/d6/be/cc/d6beccbf190a3eac0f35474e06afdcbf.jpg',
+            src: 'https://i.pinimg.com/736x/0b/da/8d/0bda8d7b305ace345b9dbfcfeff77b41.jpg',
             sizes: '512x512',
             type: 'image/png'
           }
