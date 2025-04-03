@@ -2,8 +2,10 @@ import React from 'react'
 import { Route, Routes, useLocation } from 'react-router-dom'
 import Home from './Pages/Home'
 import ViewStory from './Pages/ViewStory'
+import Reels from './Pages/Reels'
 import Menubar from './Components/Menubar'
 import Search from './Pages/Search'
+import ViewSearchReel from './Pages/ViewSearchReel'
 
 import { users } from './Data/User'
 
@@ -19,6 +21,8 @@ const App = () => {
         <Route path='/' element={<Home/>}/>
         <Route path='/search' element={<Search/>}/>
         <Route path='/story/:username' element={<ViewStory/>}/>
+        <Route path='/Reel' element={<Reels/>}/>
+        <Route path='/p/:id' element={<ViewSearchReel/>}/>
       </Routes>
      {!hidemenu &&  <Menubar/>}
     </div>
