@@ -11,7 +11,7 @@ const Feed = () => {
   useEffect(() => {
     setTimeout(() => {
       setIsLoader(false)
-    }, 2000)
+    }, 500)
   }, [])
 
 

@@ -13,7 +13,7 @@ const Stories = () => {
     setTimeout(() => {
       stref.current.style.display = "flex";
       setisloader(false);
-    }, 1000);
+    }, 300);
   }, []); // ✅ Runs only once when the component mounts
   
 
