@@ -103,8 +103,3 @@ export const users = [
   
 
 
-  users.forEach((elem ,id)=>{
-   let post = elem.stories.forEach((elem , id)=>{
-    console.log(elem)
-   })
-  })

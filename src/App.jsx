@@ -6,6 +6,9 @@ import Reels from './Pages/Reels'
 import Menubar from './Components/Menubar'
 import Search from './Pages/Search'
 import ViewSearchReel from './Pages/ViewSearchReel'
+import UserProfile from './Pages/UserProfile'
+
+
 
 import { users } from './Data/User'
 
@@ -23,6 +26,9 @@ const App = () => {
         <Route path='/story/:username' element={<ViewStory/>}/>
         <Route path='/Reel' element={<Reels/>}/>
         <Route path='/p/:id' element={<ViewSearchReel/>}/>
+        <Route path='/:username/*' element={<UserProfile/>}/>
+        {/* <Route path='/:username/reels' element={<UserProfile/>}/> */}
+        
       </Routes>
      {!hidemenu &&  <Menubar/>}
     </div>

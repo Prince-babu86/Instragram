@@ -5,6 +5,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination, Mousewheel } from "swiper/modules";
 import { reels } from '../Data/Reels';
+import { Link } from 'react-router-dom';
 
 
 const Reels = () => {
@@ -19,8 +20,8 @@ const Reels = () => {
       if(video){
         if(index === activeIndex){
           video.play()
-          console.log(video)
-          console.log(progress)
+          // console.log(video)
+          // console.log(progress)
         }else{
           video.pause()
         }
@@ -34,7 +35,7 @@ const Reels = () => {
     if (video) {
       const progress = (video.currentTime / video.duration) * 100;
       setProgress(progress);
-      console.log(video)
+      // console.log(video)
     }
   };
   
@@ -88,7 +89,7 @@ const Reels = () => {
             <img className='h-full w-full rounded-full' src={elem.user.profilePicture} alt="" />
           </div>
           <div className="flex flex-col items-start">
-            <h4 className='text-[13px]'>{elem.user.username}</h4>
+            <Link to={`/${elem.user.username}`} className='text-[13px]'>{elem.user.username}</Link>
             <h4 className='text-[13px]'>video title name</h4>
           </div>
           <button className='absolute right-[30%] top-1 outline-none text-[12px] border-1 py-1 px-2 rounded-md'>Follow</button>
