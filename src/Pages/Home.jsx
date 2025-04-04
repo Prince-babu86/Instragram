@@ -5,7 +5,7 @@ import Feed from '../Components/Feed'
 
 const Home = () => {
   return (
-    <div className='h-[90vh] w-full overflow-y-auto'> 
+    <div className='h-[91vh] w-full overflow-y-auto'> 
     <Navbar/>
     <Stories/>
     <Feed/>
