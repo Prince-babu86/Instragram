@@ -12,7 +12,7 @@ const UserProfile = () => {
   
 
   return (
-    <div className="h-[91.2vh] w-full overflow-y-auto ">
+    <div className="h-[91.7vh] w-full overflow-y-auto ">
       <div className="top h-12 w-full bg-r  flex items-center px-2 justify-between">
         <div className="left flex items-center gap-5">
         <i onClick={(()=>{navigate("/")})} className="ri-arrow-left-line text-3xl"></i>
@@ -115,7 +115,7 @@ const UserProfile = () => {
         </div>
 
         
-        <div className="highlights h-26 mt-2 flex overflow-x-auto   ">
+        <div className="highlights h-26 mt-4 flex overflow-x-auto   ">
         {user.stories.map((elem , id)=>{
             return   <div className="story h-[90%] w-[100px]  flex items-center justify-center flex-col">
             <div className="h-[70%] w-[70%] bg-gray-600/50 p-1 rounded-full ">
