@@ -12,7 +12,7 @@ const UserProfile = () => {
   
 
   return (
-    <div className="h-[84vh] w-full overflow-y-auto ">
+    <div className="h-[89vh] w-full overflow-y-auto ">
       <div className="top h-12 w-full bg-r  flex items-center px-2 justify-between">
         <div className="left flex items-center gap-5">
         <i onClick={(()=>{navigate("/")})} className="ri-arrow-left-line text-3xl"></i>
