@@ -83,7 +83,7 @@ const Reels = () => {
           return (
             <SwiperSlide  className="Reel relative h-[92.2vh] w-full ">
               {/* <div ref={Bigheart} className="absolute top-[40%] left-[35%]"><i  className="ri-heart-3-fill absolute text-8xl"></i></div> */}
-              <div className="progessbar w-full h-[2px] bg-gray-500/50  absolute bottom-[50px] ">
+              <div className="progessbar w-full h-[2px] bg-gray-500/50  absolute bottom-0 ">
                 <div
                   className="process h-full bg-slate-200  transition-all"
                   style={{ width: `${progress}%` }}
@@ -209,7 +209,7 @@ const Reels = () => {
                   />
                 </div>
               </div>
-              <div className="bottom-bar z-[130] absolute bottom-[30px] flex flex-col items-start  w-full  ">
+              <div className="bottom-bar z-[130] absolute bottom-[40px] flex flex-col items-start  w-full  ">
                 <div className="flex items-center gap-2 px-3">
                   <div className="prf h-10 w-10 relative">
                     <img
