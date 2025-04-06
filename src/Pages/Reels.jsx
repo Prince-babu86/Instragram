@@ -77,11 +77,11 @@ const Reels = () => {
         pagination={{ clickable: true }}
         onSlideChange={handleSlideChange}
         // modules={[Mousewheel, Pagination]}
-        className="Reels h-screen w-full bg-amber-0 relative"
+        className="Reels h-[92.3vh] w-full bg-amber-0 relative"
       >
         {mixedArray.map((elem, index) => {
           return (
-            <SwiperSlide  className="Reel relative h-[91.2vh] w-full  ">
+            <SwiperSlide  className="Reel relative h-full w-full ">
               {/* <div ref={Bigheart} className="absolute top-[40%] left-[35%]"><i  className="ri-heart-3-fill absolute text-8xl"></i></div> */}
               <div className="progessbar w-full h-[2px] bg-gray-500/50  absolute bottom-0 ">
                 <div
@@ -209,7 +209,7 @@ const Reels = () => {
                   />
                 </div>
               </div>
-              <div className="bottom-bar z-[130] absolute bottom-[60px] flex flex-col items-start  w-full  ">
+              <div className="bottom-bar z-[100] absolute bottom-5 flex flex-col items-start  w-full  ">
                 <div className="flex items-center gap-2 px-3">
                   <div className="prf h-10 w-10 relative">
                     <img
