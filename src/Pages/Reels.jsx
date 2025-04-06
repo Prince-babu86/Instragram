@@ -22,7 +22,7 @@ const Reels = () => {
       if (video) {
         if (index === activeIndex) {
           video.play();
-          console.log(index)
+          console.log(index);
           // console.log(progress)
         } else {
           video.pause();
@@ -40,13 +40,9 @@ const Reels = () => {
         });
       }
     };
-  
+
     setTimeout(playFirstVideo, 100);
   }, []);
-
-
-  
-  
 
   const [volume, setvolume] = useState(1);
   const volumeRef = useRef();
@@ -71,9 +67,7 @@ const Reels = () => {
     }
   };
 
-  const Bigheart = useRef()
-
-
+  const Bigheart = useRef();
 
   const handleTimeUpdate = (index) => {
     const video = videoRefs.current[index];
@@ -98,7 +92,7 @@ const Reels = () => {
       >
         {mixedArray.map((elem, index) => {
           return (
-            <SwiperSlide  className="Reel relative h-full w-full ">
+            <SwiperSlide className="Reel relative h-full w-full ">
               {/* <div ref={Bigheart} className="absolute top-[40%] left-[35%]"><i  className="ri-heart-3-fill absolute text-8xl"></i></div> */}
               <div className="progessbar w-full h-[2px] bg-gray-500/50  absolute bottom-0 ">
                 <div
@@ -199,7 +193,7 @@ const Reels = () => {
                   </svg>
                   <h4 className="text-[12px]">{elem.stats.saves}</h4>
                 </div> */}
-             <i className="ri-more-2-fill text-xl font-thin my-1"></i>
+                <i className="ri-more-2-fill text-xl font-thin my-1"></i>
 
                 <div className="it flex items-center border-1 h-6.5 mt-0.5 rounded-md w-7 justify-center  flex-col  gap-1.5">
                   <i className="ri-music-2-line absolute opacity-[1] z-[100]"></i>
@@ -248,7 +242,7 @@ const Reels = () => {
                     <i className="ri-volume-up-fill text-xl"></i>
                   )}
                 </div>
-                <video 
+                <video
                   onClick={() => {
                     handleOnClickVideo(index);
                   }}
