@@ -199,23 +199,7 @@ const Reels = () => {
                   </svg>
                   <h4 className="text-[12px]">{elem.stats.saves}</h4>
                 </div> */}
-
-                <div className="it flex items-center justify-center flex-col p-1 gap-1.5">
-                  <svg
-                    aria-label="More"
-                    class="x1lliihq x1n2onr6 xyb1xck"
-                    fill="currentColor"
-                    height="29"
-                    role="img"
-                    viewBox="0 0 24 24"
-                    width="29"
-                  >
-                    <title>More</title>
-                    <circle cx="12" cy="12" r="1.5"></circle>
-                    <circle cx="6" cy="12" r="1.5"></circle>
-                    <circle cx="18" cy="12" r="1.5"></circle>
-                  </svg>
-                </div>
+             <i className="ri-more-2-fill text-xl font-thin my-1"></i>
 
                 <div className="it flex items-center border-1 h-6.5 mt-0.5 rounded-md w-7 justify-center  flex-col  gap-1.5">
                   <i className="ri-music-2-line absolute opacity-[1] z-[100]"></i>
