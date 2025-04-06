@@ -335,4 +335,3 @@ function shuffleArray(arr) {
 
 
 export const mixedArray = shuffleArray(reels)
-console.log(mixedArray)
