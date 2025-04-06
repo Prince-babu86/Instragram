@@ -2,6 +2,7 @@ import React, { useEffect, useState, useRef } from 'react'
 import FeedLoader from '../SkeletonLoader/FeedLoader'
 import { reels } from '../Data/Reels'
 import { posts } from '../Data/Postdata'
+import { mixedArray2 } from '../Data/Postdata'
 import { Link, useNavigate } from 'react-router-dom'
 const Feed = () => {
   const [isLoader, setIsLoader] = useState(true)
@@ -23,7 +24,7 @@ const Feed = () => {
           return <FeedLoader key={id} />
         })
       ) : (
-        posts.map((elem, id) => {
+        mixedArray2.map((elem, id) => {
           return (
             <div key={id} className="feed w-full bg-red-40 mb-4">
               <div className="relative">
