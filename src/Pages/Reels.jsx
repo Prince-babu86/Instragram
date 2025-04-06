@@ -209,7 +209,7 @@ const Reels = () => {
                   />
                 </div>
               </div>
-              <div className="bottom-bar z-[100] absolute bottom-[100px] flex flex-col items-start  w-full  ">
+              <div className="bottom-bar z-[130] absolute bottom-[100px] flex flex-col items-start  w-full  ">
                 <div className="flex items-center gap-2 px-3">
                   <div className="prf h-10 w-10 relative">
                     <img
