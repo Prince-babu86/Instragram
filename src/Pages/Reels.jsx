@@ -81,9 +81,9 @@ const Reels = () => {
       >
         {mixedArray.map((elem, index) => {
           return (
-            <SwiperSlide  className="Reel relative h-full w-full ">
+            <SwiperSlide  className="Reel relative h-full overflow-hidden w-full ">
               {/* <div ref={Bigheart} className="absolute top-[40%] left-[35%]"><i  className="ri-heart-3-fill absolute text-8xl"></i></div> */}
-              <div className="progessbar w-full h-[2px] bg-gray-500/50  absolute bottom-0 ">
+              <div className="progessbar w-full h-[2px] bg-gray-500/50  absolute bottom-[50px] ">
                 <div
                   className="process h-full bg-slate-200  transition-all"
                   style={{ width: `${progress}%` }}
