@@ -77,7 +77,7 @@ const Reels = () => {
         pagination={{ clickable: true }}
         onSlideChange={handleSlideChange}
         // modules={[Mousewheel, Pagination]}
-        className="Reels h-[92.3vh] w-full bg-amber-0 relative"
+        className="Reels h-[92.4vh] w-full bg-amber-0 relative"
       >
         {mixedArray.map((elem, index) => {
           return (
