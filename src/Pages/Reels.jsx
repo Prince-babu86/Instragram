@@ -89,7 +89,7 @@ const Reels = () => {
                   style={{ width: `${progress}%` }}
                 ></div>
               </div>
-              <div className="icons right-2 top-[48.5%] absolute  b z-[100] flex items-center justify-between gap-1 flex-col ">
+              <div className="icons right-2 top-[50.5%] absolute  b z-[100] flex items-center justify-between gap-1 flex-col ">
                 <div className="it flex items-center justify-center flex-col p-1 gap-1.5 ">
                   <svg
                     aria-label="Like"
@@ -209,7 +209,7 @@ const Reels = () => {
                   />
                 </div>
               </div>
-              <div className="bottom-bar z-[100] absolute bottom-5 flex flex-col items-start  w-full  ">
+              <div className="bottom-bar z-[100] absolute bottom-4 flex flex-col items-start  w-full  ">
                 <div className="flex items-center gap-2 px-3">
                   <div className="prf h-10 w-10 relative">
                     <img
