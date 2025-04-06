@@ -81,7 +81,7 @@ const Reels = () => {
       >
         {mixedArray.map((elem, index) => {
           return (
-            <SwiperSlide  className="Reel relative h-[92.2vh] w-full ">
+            <SwiperSlide  className="Reel relative h-[91.2vh] w-full  ">
               {/* <div ref={Bigheart} className="absolute top-[40%] left-[35%]"><i  className="ri-heart-3-fill absolute text-8xl"></i></div> */}
               <div className="progessbar w-full h-[2px] bg-gray-500/50  absolute bottom-0 ">
                 <div
