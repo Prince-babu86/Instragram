@@ -177,7 +177,7 @@ const Reels = () => {
                   <h4 className="text-[12px]">{elem.stats.shares}</h4>
                 </div>
 
-                <div className="it flex items-center justify-center flex-col p-1 gap-1.5">
+                {/* <div className="it flex items-center justify-center flex-col p-1 gap-1.5">
                   <svg
                     aria-label="Save"
                     class="x1lliihq x1n2onr6 x5n08af"
@@ -198,7 +198,7 @@ const Reels = () => {
                     ></polygon>
                   </svg>
                   <h4 className="text-[12px]">{elem.stats.saves}</h4>
-                </div>
+                </div> */}
 
                 <div className="it flex items-center justify-center flex-col p-1 gap-1.5">
                   <svg
