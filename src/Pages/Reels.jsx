@@ -22,7 +22,7 @@ const Reels = () => {
       if (video) {
         if (index === activeIndex) {
           video.play();
-          // console.log(video)
+          console.log(index)
           // console.log(progress)
         } else {
           video.pause();
@@ -30,6 +30,20 @@ const Reels = () => {
       }
     });
   };
+
+  useEffect(() => {
+    const playFirstVideo = () => {
+      const video = videoRefs.current[0];
+      if (video) {
+        video.play().catch((err) => {
+          console.warn("Autoplay failed:", err);
+        });
+      }
+    };
+  
+    setTimeout(playFirstVideo, 100);
+  }, []);
+  
 
   const [volume, setvolume] = useState(1);
   const volumeRef = useRef();
@@ -200,7 +214,7 @@ const Reels = () => {
                   </svg>
                 </div>
 
-                <div className="it flex items-center border-1 h-8 mt-0.5 rounded-md w-7 justify-center  flex-col  gap-1.5">
+                <div className="it flex items-center border-1 h-6.5 mt-0.5 rounded-md w-7 justify-center  flex-col  gap-1.5">
                   <i className="ri-music-2-line absolute opacity-[1] z-[100]"></i>
                   <img
                     className="h-full w-full rounded-md object-cover opacity-[0.5]"
