@@ -77,7 +77,7 @@ const Reels = () => {
         pagination={{ clickable: true }}
         onSlideChange={handleSlideChange}
         // modules={[Mousewheel, Pagination]}
-        className="Reels h-[93vh] w-full bg-amber-0 relative"
+        className="Reels h-[93.1vh] w-full bg-amber-0 relative"
       >
         {mixedArray.map((elem, index) => {
           return (
@@ -89,7 +89,7 @@ const Reels = () => {
                   style={{ width: `${progress}%` }}
                 ></div>
               </div>
-              <div className="icons right-2 top-[50.5%] absolute  b z-[100] flex items-center justify-between gap-1 flex-col ">
+              <div className="icons right-2 top-[52.5%] absolute  b z-[100] flex items-center justify-between gap-1 flex-col ">
                 <div className="it flex items-center justify-center flex-col p-1 gap-1.5 ">
                   <svg
                     aria-label="Like"
